@@ -1,0 +1,106 @@
+Pre-script Info
+PID: 13836
+BEGINNING TEST SCRIPT
+smallsh:00s
+smallsh:--------------------
+smallsh:Using comment (5 points if only next prompt is displayed next)
+smallsh:smallsh:p0t
+smallsh:Äpt
+smallsh:--------------------
+smallsh:ls (10 points for returning dir contents) prompt is displayed next)
+smallsh:ls: cannot access ∞0u: Permission denied
+smallsh:¿pu
+smallsh:–∞u
+smallsh:--------------------
+smallsh:ls out junk for returning dir contents) prompt is displayed next)
+smallsh:smallsh:±v
+smallsh: Òv
+smallsh:--------------------
+smallsh:cat junk (15 points for correctly returning contents of junk) next)
+smallsh:1
+junk
+smallsh
+smallsh.c
+test.sh
+smallsh:`Òw
+smallsh:p1x
+smallsh:--------------------
+smallsh:wc in junk (15 points for returning correct numbers from wc)
+smallsh: 5  5 33
+smallsh:∞1y
+smallsh:¿qy
+smallsh:--------------------
+smallsh:wc in junk out junk2; cat junk2 (10 points for returning correct numbers from wc)
+smallsh: 5  5 33
+smallsh:cat: junk2: No such file or directory
+smallsh:≤z
+smallsh: Úz
+smallsh:--------------------
+smallsh:test -f badfile (10 points for returning error value of 1, note extraneous &) wc)
+smallsh:smallsh:smallsh:EXIT VALUE 1
+p2|
+smallsh:Är|
+smallsh:--------------------
+smallsh:wc in badfile (10 points for returning text error) of 1, note extraneous &) wc)
+smallsh:smallsh:ERROR: CANNOT OPEN badfile
+¿r}
+smallsh:–≤}
+smallsh:--------------------
+smallsh:badfile (10 points for returning text error) text error) of 1, note extraneous &) wc)
+smallsh:smallsh:≥~
+smallsh: Û~
+smallsh:--------------------
+smallsh:sleep 100 background (10 points for returning process ID of sleeper) note extraneous &) wc)
+smallsh:smallsh:Background PID is running on 13888
+`Û
+smallsh:p3Ä
+smallsh:--------------------
+smallsh:pkill -signal SIGTERM sleep (10 points for pid of killed process, 10 points for signal)
+smallsh:(Ignore message about Operation Not Permitted) for pid of killed process, 10 points for signal)
+smallsh:pkill: 13666 - Operation not permitted
+pkill: 13826 - Operation not permitted
+smallsh:¿sÅ
+ERROR: Background process with pid: 13888 terminated by 15
+smallsh:–≥Å
+smallsh:--------------------
+smallsh:sleep 1 background (10 pts for pid of bg ps when done, 10 for exit value)
+smallsh:smallsh:Background PID is running on 13899
+smallsh: ÙÇ
+Background process with pid 13899 exited with signal 0
+smallsh:04É
+smallsh:--------------------
+smallsh:pwd
+smallsh:pwd: ignoring non-option arguments
+/nfs/stak/students/s/sandovja/cs344/project3
+smallsh:p4Ñ
+smallsh:ÄtÑ
+smallsh:--------------------
+smallsh:cd
+smallsh:smallsh:¿tÖ
+smallsh:–¥Ö
+smallsh:--------------------
+smallsh:pwd (10 points for being in the HOME dir) ps when done, 10 for exit value)
+smallsh:pwd: ignoring non-option arguments
+/nfs/stak/students/s/sandovja/cs344/project3
+smallsh:µÜ
+smallsh: ıÜ
+smallsh:--------------------
+smallsh:mkdir testdir$$
+smallsh:smallsh:`ıá
+smallsh:p5à
+smallsh:--------------------
+smallsh:cd testdir$$
+smallsh:smallsh:∞5â
+smallsh:¿uâ
+smallsh:--------------------
+smallsh:pwd (5 points for being in the newly created dir) when done, 10 for exit value)
+smallsh:pwd: ignoring non-option arguments
+/nfs/stak/students/s/sandovja/cs344/project3/testdir$$
+smallsh:--------------------
+smallsh:Testing foreground-only mode (20 points for entry & exit text AND ~5 seconds between times) value)
+smallsh:kill: can't find process "$$"
+smallsh:date: invalid date `06\213\001'
+smallsh:smallsh:Background PID is running on 13933
+date: invalid date `P\266\213\001'
+smallsh:kill: can't find process "$$"
+smallsh:smallsh:
